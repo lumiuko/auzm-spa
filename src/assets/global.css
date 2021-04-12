@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  video { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+	video { width: 300%; left: -100%; }
+}
+
+@supports (object-fit: cover) {
+  video {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+video {
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+#page-overlay {
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 9999;
+  background: rgba(0,0,0,0.5);
+  overflow: hidden;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main {
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.main.dynamic-height {
+  padding-top: 25vh;
+}
+
+.main::-webkit-scrollbar {
+  width: 7px;
+  z-index: 9999;
+}
+.main::-webkit-scrollbar-track {
+  background: transparent;
+}
+.main::-webkit-scrollbar-thumb {
+  background: rgba(38, 38, 38, 0.5);
+  border-radius: 5px;
+}
+
+@media screen and (max-height: 768px) {
+  .main.dynamic-height {
+    padding-top: 20vh;
+  }
+}
