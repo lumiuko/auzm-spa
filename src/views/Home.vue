@@ -2,10 +2,10 @@
   <div class="main">
 		<img :src="require('../assets/images/logo.png')" id="logo" alt="">
 		<footer class="footer">
-			<a href="https://vk.com/auzmst" target="_blank" rel="noreferrer"><i class="fab fa-vk"></i></a>
-			<a href="https://www.youtube.com/channel/UC6lUtknBk33VOx26TmALGFQ" target="_blank" rel="noreferrer"><i class="fab fa-youtube"></i></a>
-			<a href="https://steamcommunity.com/groups/autizm_main" target="_blank" rel="noreferrer"><i class="fab fa-steam"></i></a>
-			<a href="https://discord.gg/uKQyE3V" target="_blank" rel="noreferrer"><i class="fab fa-discord"></i></a>
+			<a href="https://vk.com/auzmst" target="_blank" rel="noreferrer" aria-label="VK"><i class="fab fa-vk"></i></a>
+			<a href="https://www.youtube.com/channel/UC6lUtknBk33VOx26TmALGFQ" target="_blank" rel="noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+			<a href="https://steamcommunity.com/groups/autizm_main" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fab fa-steam"></i></a>
+			<a href="https://discord.gg/uKQyE3V" target="_blank" rel="noreferrer" aria-label="Discord"><i class="fab fa-discord"></i></a>
 		</footer>
 	</div>
 </template>
