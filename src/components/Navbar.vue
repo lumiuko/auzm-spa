@@ -75,6 +75,7 @@ export default {
   }
   .nav-logo img {
     width: 55px;
+    height: auto;
     cursor: pointer;
   }
   .nav-brand {
