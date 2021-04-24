@@ -36,13 +36,13 @@ export default {
 			cards: [
 				{
 					name: 'Ramis Debt Slayer',
-					logo: 'https://auzm-st.ru/assets/game-2.png',
+					logo: require('../assets/images/projects/project-1.png'),
 					releaseDate: 2021,
 					platforms: ['windows', 'android']
 				},
 				{
 					name: 'Ramis Adventure',
-					logo: 'https://auzm-st.ru/assets/game-1.png',
+					logo: require('../assets/images/projects/project-2.png'),
 					releaseDate: 'SOON',
 					platforms: ['windows']
 				}

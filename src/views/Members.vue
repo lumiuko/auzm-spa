@@ -3,7 +3,7 @@
 		<h1>{{ title }}</h1>
 		<div class="cards">
 			<div v-for="member in members" :key="member.name" class="card">
-				<img :src="member.pic" :alt="member.name">
+				<img :src="member.avatar" :alt="member.name">
 				<div class="card-info">
 					<div class="name">{{ member.name }}</div>
 					<div class="role">{{ member.role }}</div>
@@ -24,7 +24,7 @@
 				members: [
 					{
 						name: 'Sagokko',
-						pic: 'https://auzm-st.ru/assets/member-1.png',
+						avatar: require('../assets/images/members/member-1.png'),
 						role: 'Content Maker',
 						social: [
 							{
@@ -39,7 +39,7 @@
 					},
 					{
 						name: 'KiRpIcH',
-						pic: 'https://auzm-st.ru/assets/member-2.png',
+						avatar: require('../assets/images/members/member-2.png'),
 						role: 'Game Developer',
 						social: [
 							{
@@ -54,7 +54,7 @@
 					},
 					{
 						name: 'FLX',
-						pic: 'https://auzm-st.ru/assets/member-3.png',
+						avatar: require('../assets/images/members/member-3.png'),
 						role: 'Web Developer',
 						social: [
 							{
@@ -69,7 +69,7 @@
 					},
 					{
 						name: 'Banditman',
-						pic: 'https://auzm-st.ru/assets/member-4.png',
+						avatar: require('../assets/images/members/member-4.png'),
 						role: 'Game Developer',
 						social: [
 							{

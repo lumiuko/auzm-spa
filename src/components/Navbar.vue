@@ -10,7 +10,7 @@
         <div class="nav-brand">{{ navText }}</div>
       </router-link>
     </div>
-    <div class="nav-links" :class="{ active: navOpened }">
+    <div class="nav-links" :class="{ expanded: navOpened }">
       <router-link to="/projects" @click.native="hideMenu()">Projects</router-link>
       <router-link to="/members" @click.native="hideMenu()">Members</router-link>
       <router-link to="/about" @click.native="hideMenu()">About</router-link>
@@ -174,10 +174,13 @@ export default {
       height: auto;
     }
     .nav-links {
+      display: none;
       flex-direction: column;
       width: 100%;
-      height: 0;
       overflow: hidden;
+    }
+    .nav-links.expanded {
+      display: block;
     }
     .nav-logo {
       margin: 10px 20px;

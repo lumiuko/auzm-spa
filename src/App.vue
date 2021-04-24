@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <video src="https://auzm-st.ru/assets/video.mp4" autoplay muted loop></video>
+    <video :src="require('./assets/video.mp4')" autoplay muted loop></video>
     <div id="page-overlay">
       <Navbar />
       <transition name="fade" mode="out-in">
