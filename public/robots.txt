@@ -1,0 +1,3 @@
+Sitemap: http://auzm-st.ru/sitemap.xml
+User-agent: *
+Disallow:
