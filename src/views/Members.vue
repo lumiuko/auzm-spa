@@ -58,12 +58,12 @@
 						role: 'Web Developer',
 						social: [
 							{
-								name: 'instagram',
-								link: 'https://www.instagram.com/flxemt'
+								name: 'twitter',
+								link: 'https://twitter.com/flx_emt'
 							},
 							{
-								name: 'youtube',
-								link: 'https://www.youtube.com/channel/UCdEubJoDXwLdkC-xvmrXoNQ'
+								name: 'github',
+								link: 'https://github.com/flxemt'
 							},
 						]
 					},
