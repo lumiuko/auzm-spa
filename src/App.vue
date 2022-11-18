@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <video :src="require('./assets/video.mp4')" autoplay muted loop></video>
+    <video src="https://files.catbox.moe/txorm8.mp4" autoplay muted loop></video>
     <div id="page-overlay">
       <Navbar />
       <transition name="fade" mode="out-in">
@@ -36,10 +36,10 @@ export default {
 }
 .active {
   height: 75px !important;
-  transition: height .4s ease;
+  transition: height 0.4s ease;
 }
 @keyframes fadeIn {
- from {
+  from {
     opacity: 0;
   }
   to {
