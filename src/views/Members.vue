@@ -25,17 +25,17 @@ export default {
       title: 'Members',
       members: [
         {
-          name: 'Sagokko',
+          name: 'sclimb',
           avatar: require('../assets/images/members/member-1.png'),
           role: 'Content Maker',
           social: [
             {
               name: 'instagram',
-              link: 'https://www.instagram.com/sagokko'
+              link: 'https://www.instagram.com/sclimbb/'
             },
             {
               name: 'youtube',
-              link: 'https://www.youtube.com/c/Sagokko'
+              link: 'https://www.youtube.com/@scl1mb'
             }
           ]
         },
@@ -55,17 +55,17 @@ export default {
           ]
         },
         {
-          name: 'flxemt',
+          name: 'lumiuko',
           avatar: require('../assets/images/members/member-3.png'),
           role: 'Web Developer',
           social: [
             {
               name: 'twitter',
-              link: 'https://twitter.com/flxemt'
+              link: 'https://twitter.com/lumiuko'
             },
             {
               name: 'github',
-              link: 'https://github.com/flxemt'
+              link: 'https://github.com/lumiuko'
             }
           ]
         },
@@ -85,9 +85,9 @@ export default {
           ]
         }
       ]
-    };
+    }
   }
-};
+}
 </script>
 
 <style scoped>
